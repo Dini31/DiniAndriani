@@ -1,0 +1,158 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+body{
+    background-image: url(body.jpg);
+}
+ 
+.badan-utama{
+    max-width: 1080px;
+    margin: 20px auto;
+    padding: 15px;
+    overflow: hidden;
+}
+header{
+    background-color: #193446;
+    color: white;
+    padding: 1px;
+    font: italic small-caps bold 20px/30px arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 40px;
+
+}
+.pilih ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#9AABB9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pilih ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    float: left;
+    width: 230px;
+    font-family: verdana;
+}
+.pilih li a:hover {
+    background-color:#E2B49A;
+    transition-duration: 2s;
+}
+.banner{
+    margin-bottom: 15px;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    height: 330px;
+}
+.kotak{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.kotak h3{
+    background-color: #6B82A8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+.kotak img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.kotak p{
+    margin-bottom: 10px;
+}
+.menu-kiri{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+} 
+.menu-tengah{
+    width: 530px;
+    margin-right: 10px;
+    float: left;
+    font-size:20px;
+
+} 
+.menu-tengah h3{
+    background: none;
+    color:#193446;
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 30px;
+}
+.tanggal-posting{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+.tombol{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+} 
+.tombol:hover{
+    background-color: black;
+    transition-duration: 2s;
+}
+.tombol-pesan{
+    background-color: #7B895B;
+}
+.tombol-lengkap{
+    background-color: #7B895B;
+}
+.menu-kanan{
+    width: 250px;
+    float: left;
+}
+.menu-kanan, .menu-kiri, .menu-tengah{
+    margin-bottom: 15px;
+}
+footer{
+    clear: both;
+    background-color:#193446;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.menu-artikel ul{
+    list-style-type: none;
+}
+.menu-artikel ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+.menu-artikel ul li a:hover{
+    color: #BEA42E;
+    border-bottom: 5px double chocolate;
+    transition-duration: 2s;
+}
